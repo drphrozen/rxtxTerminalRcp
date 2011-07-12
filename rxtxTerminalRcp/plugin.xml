@@ -22,9 +22,9 @@
    <extension
          point="org.eclipse.ui.views">
       <view
-            name="View"
-            class="dk.znz.rxtxterminalrcp.View"
-            id="dk.znz.rxtxterminalrcp.view">
+            name="TerminalView"
+            class="dk.znz.rxtxterminalrcp.TerminalView"
+            id="dk.znz.rxtxterminalrcp.views.terminalview">
       </view>
    </extension>
    <extension
@@ -36,7 +36,7 @@
                minimized="false"
                relative="org.eclipse.ui.editorss"
                relationship="left"
-               id="dk.znz.rxtxterminalrcp.view">
+               id="dk.znz.rxtxterminalrcp.views.terminalview">
          </view>
       </perspectiveExtension>
    </extension>
